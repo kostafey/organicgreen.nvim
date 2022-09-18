@@ -2,8 +2,9 @@ local colors = {
   fg = "#326B6B",
   bg = "#f0fff0",
   cursor_fg = "#225522",
-  cursor_bg = "#D3F0D5",
+  cursor_bg = "#D5F0D5",
   highlight = "#F0F0A1",
+  highlight_green = "#c0f3c9",
   dark_black = "#24292E",
   black = "#2e3436",
   dark_gray = "#444d56",
@@ -22,6 +23,11 @@ local colors = {
   violet = "#5544EE",
   purple = "#912CEE",
   magenta = "#d33682",
+  sign_add = "#27a745",
+  sign_change = "#2188ff",
+  sign_delete = "#d73a49",
+  fg_add = "#54964a",
+  fg_delete = "#c95c69",
 }
 
 return colors

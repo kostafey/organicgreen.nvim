@@ -8,8 +8,9 @@
  bg = '#f0fff0'
 
  cursor_fg = '#225522'
- cursor_bg = '#D3F0D5'
+ cursor_bg = '#D5F0D5'
  highlight = '#F0F0A1'
+ highlight_green = '#c0f3c9'
 
  dark_black    = '#24292E'
  black         = '#2e3436'
@@ -30,6 +31,12 @@
  violet        = '#5544EE' 
  purple        = '#912CEE' 
  magenta       = '#d33682'
+
+ sign_add      = '#27a745'
+ sign_change   = '#2188ff' 
+ sign_delete   = '#d73a49'
+ fg_add        = '#54964a'
+ fg_delete     = '#c95c69'
 
 [Editor]
 Normal = 'fg bg'
@@ -90,4 +97,25 @@ Error = 'red - b'
 Statement = 'purple'
 Identifier = 'fg'
 PreCondit = 'purple'
-Special = 'orange'
+Special = 'purple'
+
+[Git]
+SignColumn = '- bg'
+SignAdd = 'sign_add'
+SignChange = 'sign_change'
+SignDelete = 'sign_delete'
+GitSignsAdd = 'sign_add'
+GitSignsChange = 'sign_change'
+GitSignsDelete = 'sign_delete'
+
+[Neogit]
+NeogitBranch = 'green'
+NeogitRemote = 'yellow'
+NeogitHunkHeader = 'purple bg'
+NeogitHunkHeaderHighlight = 'purple cursor_bg'
+NeogitDiffContextHighlight = 'fg cursor_bg'
+NeogitDiffDelete= 'fg_delete bg'
+NeogitDiffDeleteHighlight = 'fg_delete cursor_bg'
+NeogitDiffAdd = 'fg_add bg'
+NeogitDiffAddHighlight = 'fg_add cursor_bg'
+

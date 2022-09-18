@@ -64,7 +64,27 @@ theme.set_highlights = function()
   hl(0, "Statement", { fg = c.purple, bg = 'NONE' })
   hl(0, "Identifier", { fg = c.fg, bg = 'NONE' })
   hl(0, "PreCondit", { fg = c.purple, bg = 'NONE' })
-  hl(0, "Special", { fg = c.orange, bg = 'NONE' })
+  hl(0, "Special", { fg = c.purple, bg = 'NONE' })
+
+  -- Git
+  hl(0, "SignColumn", { fg = 'NONE', bg = c.bg })
+  hl(0, "SignAdd", { fg = c.sign_add, bg = 'NONE' })
+  hl(0, "SignChange", { fg = c.sign_change, bg = 'NONE' })
+  hl(0, "SignDelete", { fg = c.sign_delete, bg = 'NONE' })
+  hl(0, "GitSignsAdd", { fg = c.sign_add, bg = 'NONE' })
+  hl(0, "GitSignsChange", { fg = c.sign_change, bg = 'NONE' })
+  hl(0, "GitSignsDelete", { fg = c.sign_delete, bg = 'NONE' })
+
+  -- Neogit
+  hl(0, "NeogitBranch", { fg = c.green, bg = 'NONE' })
+  hl(0, "NeogitRemote", { fg = c.yellow, bg = 'NONE' })
+  hl(0, "NeogitHunkHeader", { fg = c.purple, bg = c.bg })
+  hl(0, "NeogitHunkHeaderHighlight", { fg = c.purple, bg = c.cursor_bg })
+  hl(0, "NeogitDiffContextHighlight", { fg = c.fg, bg = c.cursor_bg })
+  hl(0, "NeogitDiffDelete", { fg = c.fg_delete, bg = c.bg })
+  hl(0, "NeogitDiffDeleteHighlight", { fg = c.fg_delete, bg = c.cursor_bg })
+  hl(0, "NeogitDiffAdd", { fg = c.fg_add, bg = c.bg })
+  hl(0, "NeogitDiffAddHighlight", { fg = c.fg_add, bg = c.cursor_bg })
 end
 
 return theme
