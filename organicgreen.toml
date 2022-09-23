@@ -49,6 +49,19 @@ EndOfBuffer = 'bg'
 NonText = 'bg'
 Visual = '- highlight'
 
+DiffText = 'sign_change bg'
+DiffAdd = 'fg_add bg'
+DiffChange = 'sign_change bg'
+DiffDelete = 'fg_delete bg'
+diffAdded = 'fg_add bg'
+diffRemoved = 'fg_delete bg'
+diffChanged = 'sign_change bg'
+diffOldFile = 'gray bg'
+diffNewFile = 'gray bg'
+diffFile = 'black bg'
+diffLine = 'purple bg'
+diffIndexLine = 'gray bg'
+
 MatchParen = '- highlight'
 
 [StatusLine]
