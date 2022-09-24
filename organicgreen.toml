@@ -38,6 +38,16 @@
  fg_add        = '#54964a'
  fg_delete     = '#c95c69'
 
+ marker_yellow = "#FFF68F"
+ marker_green  = "#B7EB8F"
+ marker_teal   = "#76DDBA"
+ marker_blue   = "#91D5FF"
+ marker_violet = "#ADC6FF"
+ marker_purple = "#D3ADF7"
+ marker_pink   = "#FFADD2"
+ marker_red    = "#FFA39E"
+ marker_orange = "#FFD591"
+
 [Editor]
 Normal = 'fg bg'
 Cursor = 'cursor_fg cursor_bg'
@@ -132,3 +142,8 @@ NeogitDiffDeleteHighlight = 'fg_delete cursor_bg'
 NeogitDiffAdd = 'fg_add bg'
 NeogitDiffAddHighlight = 'fg_add cursor_bg'
 
+[Hop]
+HopNextKey = '- marker_yellow'
+HopNextKey1 = '- marker_green'
+HopNextKey2 = '- marker_teal'
+HopUnmatched = 'dark_gray'

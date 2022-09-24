@@ -28,6 +28,15 @@ local colors = {
   sign_delete = "#d73a49",
   fg_add = "#54964a",
   fg_delete = "#c95c69",
+  marker_yellow = "#FFF68F",
+  marker_green = "#B7EB8F",
+  marker_teal = "#76DDBA",
+  marker_blue = "#91D5FF",
+  marker_violet = "#ADC6FF",
+  marker_purple = "#D3ADF7",
+  marker_pink = "#FFADD2",
+  marker_red = "#FFA39E",
+  marker_orange = "#FFD591",
 }
 
 return colors

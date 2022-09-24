@@ -97,6 +97,12 @@ theme.set_highlights = function()
   hl(0, "NeogitDiffDeleteHighlight", { fg = c.fg_delete, bg = c.cursor_bg })
   hl(0, "NeogitDiffAdd", { fg = c.fg_add, bg = c.bg })
   hl(0, "NeogitDiffAddHighlight", { fg = c.fg_add, bg = c.cursor_bg })
+
+  -- Hop
+  hl(0, "HopNextKey", { fg = 'NONE', bg = c.marker_yellow })
+  hl(0, "HopNextKey1", { fg = 'NONE', bg = c.marker_green })
+  hl(0, "HopNextKey2", { fg = 'NONE', bg = c.marker_teal })
+  hl(0, "HopUnmatched", { fg = c.dark_gray, bg = 'NONE' })
 end
 
 return theme
