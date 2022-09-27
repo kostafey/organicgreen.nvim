@@ -9,8 +9,8 @@ Created with [colorgen-nvim](https://github.com/ChristianChiarulli/colorgen-nvim
 ```bash
 colorgen-nvim organicgreen.toml && \
     rm -rf colors && \
-    rm -rf lua && \
+    rm -rf lua/organicgreen && \
     mv organicgreen/colors . && \
-    mv organicgreen/lua . && \
+    mv organicgreen/lua/organicgreen lua && \
     rm -r organicgreen
 ```
