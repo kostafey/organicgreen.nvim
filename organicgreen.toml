@@ -11,6 +11,8 @@
  cursor_bg = '#D5F0D5'
  highlight = '#F0F0A1'
  highlight_green = '#c0f3c9'
+ highlight_gray =  '#E3F2E1'
+ highlight_blue =  '#acd7e5'
 
  dark_black    = '#24292E'
  black         = '#2e3436'
@@ -58,6 +60,12 @@ Whitespace = 'bg'
 EndOfBuffer = 'bg'
 NonText = 'bg'
 Visual = '- highlight'
+
+Pmenu = 'black highlight_gray'
+PmenuSel = 'black highlight_blue'
+WildMenu = 'black highlight_blue'
+PmenuSbar = '- dark_white'
+PmenuThumb = '- gray'
 
 DiffText = 'sign_change -'
 DiffAdd = 'fg_add -'
