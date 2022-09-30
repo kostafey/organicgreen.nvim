@@ -52,8 +52,8 @@ theme.set_highlights = function()
   hl(0, "Boolean", { fg = c.black, bg = 'NONE' })
   hl(0, "Constant", { fg = c.black, bg = 'NONE' })
   hl(0, "Type", { fg = c.black, bg = 'NONE' })
-  hl(0, "Function", { fg = c.purple, bg = 'NONE' })
-  hl(0, "Keyword", { fg = c.blue, bg = 'NONE' })
+  hl(0, "Function", { fg = c.blue, bg = 'NONE' })
+  hl(0, "Keyword", { fg = c.purple, bg = 'NONE' })
   hl(0, "Conditional", { fg = c.purple, bg = 'NONE' })
   hl(0, "Repeat", { fg = c.purple, bg = 'NONE' })
   hl(0, "Operator", { fg = c.fg, bg = 'NONE' })
@@ -108,6 +108,14 @@ theme.set_highlights = function()
   hl(0, "HopNextKey1", { fg = 'NONE', bg = c.marker_green })
   hl(0, "HopNextKey2", { fg = 'NONE', bg = c.marker_teal })
   hl(0, "HopUnmatched", { fg = c.dark_gray, bg = 'NONE' })
+
+  -- TreeSitter
+  hl(0, "TSField", { fg = c.fg, bg = 'NONE' })
+  hl(0, "TSKeyword", { fg = c.purple, bg = 'NONE' })
+  hl(0, "TSKeywordFunction", { fg = c.purple, bg = 'NONE' })
+  hl(0, "TSFunction", { fg = c.blue, bg = 'NONE' })
+  hl(0, "TSProperty", { fg = c.blue, bg = 'NONE' })
+  hl(0, "TSTextReference", { fg = c.red, bg = 'NONE' })
 end
 
 return theme
