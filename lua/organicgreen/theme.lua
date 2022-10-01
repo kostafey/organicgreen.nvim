@@ -105,8 +105,8 @@ theme.set_highlights = function()
 
   -- Hop
   hl(0, "HopNextKey", { fg = 'NONE', bg = c.marker_yellow })
-  hl(0, "HopNextKey1", { fg = 'NONE', bg = c.marker_green })
-  hl(0, "HopNextKey2", { fg = 'NONE', bg = c.marker_teal })
+  hl(0, "HopNextKey1", { fg = 'NONE', bg = c.marker_yellow })
+  hl(0, "HopNextKey2", { fg = 'NONE', bg = c.marker_green })
   hl(0, "HopUnmatched", { fg = c.dark_gray, bg = 'NONE' })
 
   -- TreeSitter

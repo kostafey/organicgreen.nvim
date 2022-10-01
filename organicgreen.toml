@@ -152,8 +152,8 @@ NeogitDiffAddHighlight = 'fg_add cursor_bg'
 
 [Hop]
 HopNextKey = '- marker_yellow'
-HopNextKey1 = '- marker_green'
-HopNextKey2 = '- marker_teal'
+HopNextKey1 = '- marker_yellow'
+HopNextKey2 = '- marker_green'
 HopUnmatched = 'dark_gray'
 
 [TreeSitter]
