@@ -10,7 +10,7 @@
  cursor_fg = '#225522'
  cursor_bg = '#D5F0D5'
  highlight = '#F0F0A1'
- highlight_green = '#c0f3c9'
+ highlight_green = '#C1F3CA'
  highlight_gray =  '#E3F2E1'
  highlight_blue =  '#acd7e5'
 
@@ -155,6 +155,11 @@ HopNextKey = '- marker_yellow'
 HopNextKey1 = '- marker_yellow'
 HopNextKey2 = '- marker_green'
 HopUnmatched = 'dark_gray'
+
+[Vim-illuminate]
+IlluminatedWordText = '- highlight_green'
+IlluminatedWordRead = '- highlight_green'
+IlluminatedWordWrite = '- highlight_blue'
 
 [TreeSitter]
 TSField = 'fg'

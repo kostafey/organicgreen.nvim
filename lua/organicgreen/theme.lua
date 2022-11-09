@@ -109,6 +109,11 @@ theme.set_highlights = function()
   hl(0, "HopNextKey2", { fg = 'NONE', bg = c.marker_green })
   hl(0, "HopUnmatched", { fg = c.dark_gray, bg = 'NONE' })
 
+  -- Vim-illuminate
+  hl(0, "IlluminatedWordText", { fg = 'NONE', bg = c.highlight_green })
+  hl(0, "IlluminatedWordRead", { fg = 'NONE', bg = c.highlight_green })
+  hl(0, "IlluminatedWordWrite", { fg = 'NONE', bg = c.highlight_blue })
+
   -- TreeSitter
   hl(0, "TSField", { fg = c.fg, bg = 'NONE' })
   hl(0, "TSKeyword", { fg = c.purple, bg = 'NONE' })
